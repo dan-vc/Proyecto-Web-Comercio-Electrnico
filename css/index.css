@@ -1,0 +1,52 @@
+.logo-img {
+    width: 10rem;
+}
+
+.card {
+    width: 12rem;
+    border-radius: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body>img {
+    width: 10rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+.payments {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
+
+.payments>a {
+    width: 80px;
+    height: 80px;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payments>a:hover {
+    background: rgb(189, 189, 189);
+    border-radius: 50%;
+
+    transition: all ease .3s;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
